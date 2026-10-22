@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.env
+.env.*
+*.egg-info/
+dist/
+build/
+*.so
+.DS_Store
+*.parquet
+*.feather
+# Raw API data dumps (not task deliverables)
+/tmp/

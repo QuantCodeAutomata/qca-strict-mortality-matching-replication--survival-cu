@@ -1,0 +1,8 @@
+"""conftest.py — pytest configuration: add src/ and root to sys.path."""
+
+import os
+import sys
+
+ROOT = os.path.join(os.path.dirname(__file__), "..")
+sys.path.insert(0, os.path.join(ROOT, "src"))
+sys.path.insert(0, ROOT)
